@@ -1,0 +1,41 @@
+
+
+
+.Card_Container{
+margin-top: 33px;
+padding: 16px;
+background-color: $bg_Card;
+height  : 174px;
+border-radius: 16px;
+backdrop-filter: blur(27px);
+
+img{
+border-radius: 12px;
+position: absolute;
+width: 105px;
+height: 140px;
+left: 16px;
+top: 16px;
+
+;
+}
+
+h1{
+position: static;
+left: 16px;
+left: calc(50% - 132px/2);
+top: 0%;
+bottom: 68.13%;
+font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 143%;
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 4px 0px;
+}
+
+}

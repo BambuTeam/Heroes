@@ -3,6 +3,8 @@ import './App.css';
 import LikedCard from './components/Liked-Card';
 import Search from './components/Search';
 import TopBar from './components/Top-bar';
+import Card from './components/Card';
+
 
 
 function App() {
@@ -11,6 +13,7 @@ function App() {
       <TopBar />
       <LikedCard />
       <Search />
+      <Card />
     
     </div>
   );
