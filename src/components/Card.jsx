@@ -6,6 +6,7 @@ import axios from 'axios';
 
 
 
+
 function Card(){
 
 
@@ -38,6 +39,10 @@ function Card(){
         <h1>{item.name}</h1>
         <p>Real Name: {item.biography.fullName}</p>
         <p>{item.appearance.race}</p>
+        <div className="Fist-ico">
+        <span className="ico-svg"></span><p>{item.powerstats.combat}/100</p>
+        {/* <img src ={Fist} alt="LikedCard"/ > */}
+        </div>
         </div>
         </div> 
         
