@@ -2,7 +2,18 @@
     font-family: FirstFont;
     src: url(../font/Poppins-Bold.ttf);
   }
+
+  @font-face {
+    font-family: Font-Search;
+    src: url(../font/Poppins-Light.ttf);
+  }
+
+
+
+
 $white_text: #fefefe;
 $bg_primary: #2a1b57af;
 $bg_secundary: #6a4dbc;
+$bg_primary-s: #281f43;
+$border_color_button: #281f43;
 

@@ -7,13 +7,33 @@
         float: left;
     }
 
+    h5{
+    font-family: Font-Search;
+        
+    }
 
+    img{
+        float: left;
+        margin-top: -5px;
+
+    }
 
 }
 
-
-
-
 .glass{
-    background-color: red;
+    padding: 10px;
+    align-items: center; 
+    border: solid 1px $border_color_button;
+    border-radius: 15px;
+    background-color: $bg_primary-s;
+    height: 35px;
+
+    label{
+        color: $white_text;
+        float: left;
+        margin-left: 10px;
+        text-align: center;
+        margin-top: -5px;
+
+    }
 }

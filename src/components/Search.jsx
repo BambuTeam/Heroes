@@ -1,11 +1,6 @@
 import React from 'react';
 import {Container, Row, Col} from 'react-bootstrap'
-import Glass from '../img/Ico/arrow-up.svg'
-
-
-
-
-
+import Glass from '../img/Ico/search.svg'
 
 
 
@@ -18,7 +13,8 @@ const Search=()=>{
     </Col>
     <Col lg="4">
         <div className="glass">
-        <label for="gsearch">Search Google:</label>
+        <img src ={Glass} alt="LikedCard"/>
+        <label for="gsearch"><h5>Search</h5></label>
         </div>
     </Col>
   </Row>
