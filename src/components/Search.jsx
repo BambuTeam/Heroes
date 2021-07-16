@@ -8,7 +8,7 @@ const Search=()=>{
     return(
         <Container className="Container-Search">
         <Row>
-    <Col lg="8">   
+    <Col lg="8" >   
     <h2>All superheroes</h2>
     </Col>
     <Col lg="4">

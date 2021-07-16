@@ -2,12 +2,16 @@
 
 
 .Card_Container{
-margin-top: 33px;
-padding: 16px;
-background-color: $bg_Card;
-height  : 174px;
-border-radius: 16px;
-backdrop-filter: blur(27px);
+    
+
+.Contai-col{
+    margin-top: 33px;
+    padding: 16px;
+    
+    height  : 174px;
+    border-radius: 16px;
+    
+}
 
 img{
 border-radius: 12px;
@@ -22,7 +26,7 @@ top: 16px;
 
 h1{
     position: static;
-    width: 100%;
+    width: 132px;
     left: calc(50% - 132px/2);
     top: 0%;
     bottom: 68.13%;

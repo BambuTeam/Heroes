@@ -28,11 +28,13 @@ function Card(){
     {
         superheroes.map((item,i)=>(
            
-        <Col lg="3"  className="Card_Container">   
-        <img src ={item.images.lg} alt="LikedCard"/>
+        <Col lg="3"  className="Card_Container" >  
+        <div className="Contai-col" >
+        <img src ={item.images.sm} alt="ImgCard"/>
         <h1>{item.name}</h1>
         <p>{item.biography.fullName}</p>
         <p>{item.appearance.race}</p>
+        </div> 
 
         
     </Col>
