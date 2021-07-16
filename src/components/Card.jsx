@@ -27,15 +27,19 @@ function Card(){
     <Row>
     {
         superheroes.map((item,i)=>(
-           
         <Col lg="3"  className="Card_Container" >  
-        <div className="Contai-col" >
-        <img src ={item.images.sm} alt="ImgCard"/>
+        <div className="Contai-col bg-blur" style={{ backgroundImage: `url(${item.images.sm})` }} >
+        
+        <Col>
+        
+        <img src ={item.images.sm} alt="ImgCard"/>       
+        </Col>
+        <div>
         <h1>{item.name}</h1>
-        <p>{item.biography.fullName}</p>
+        <p>Real Name: {item.biography.fullName}</p>
         <p>{item.appearance.race}</p>
+        </div>
         </div> 
-
         
     </Col>
         ))

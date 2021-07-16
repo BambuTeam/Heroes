@@ -3,44 +3,87 @@
 
 .Card_Container{
     
+    margin-top: 50px;
+    
 
 .Contai-col{
-    margin-top: 33px;
-    padding: 16px;
+height: 174px;
+background-repeat: no-repeat;
+background-size: cover;
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 16px;
+border-radius: 16px;
+-webkit-backdrop-filter: blur(10px);
+backdrop-filter: blur(10px);
+
+
+
     
-    height  : 174px;
-    border-radius: 16px;
+    img{
     
+        width: 105px;
+        height: 140px;
+        left: 16px;
+        top: 16px;
+        border-radius: 12px;
+    ;
+    }
 }
 
-img{
-border-radius: 12px;
-position: absolute;
-width: 105px;
-height: 140px;
-left: 16px;
-top: 16px;
-
-;
-}
 
 h1{
-    position: static;
-    width: 132px;
+    /* width: 132px;
     left: calc(50% - 132px/2);
-    top: 0%;
-    bottom: 68.13%;
-    
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: bold;
     font-size: 20px;
-    line-height: 143%;
-    /* identical to box height, or 29px */
+    color: #FFFFFF */
+
+    position: static;
+width: 132px;
+left: calc(50% - 132px/2);
+top: 0%;
+bottom: 68.13%;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 143%;
+/* identical to box height, or 29px */
+
+letter-spacing: 0.300393px;
+
+color: #FFFFFF;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 4px 0px;
+}
+
+p{
     
-    letter-spacing: 0.300393px;
-    
-    color: #FFFFFF
+font-family: Font-Search;
+color: $white_text;
+position: static;
+left: 50%;
+right: 0%;
+top: 36.26%;
+bottom: 24.18%;
+font-size: 12px;
+line-height: 18px;
+letter-spacing: 0.273085px;
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+margin: 4px 0px;
 }
 
 }
+
