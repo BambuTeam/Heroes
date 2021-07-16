@@ -1,0 +1,61 @@
+
+@import "variables";
+@import "search";
+
+
+
+body{
+    background: rgb(17,7,47);
+background: radial-gradient(circle, rgba(17,7,47,1) 96%, rgba(26,10,75,1) 100%);
+width: 100vw;
+height: 100vh;
+}
+
+.Top-Bar img{
+    margin-top: 50px;
+    width: 90px;
+}
+
+.Container-like{
+    
+    align-items: center; 
+    margin-top: 50px;
+    border: solid 1px $bg_secundary;
+    border-radius: 15px;
+    background-color: $bg_primary;
+    width: 100%;
+    height: 80px;
+
+    img{
+        float: left;
+        margin-top: 2.5%;
+        background-color: $bg_secundary;
+        padding: 15px;
+        border-radius: 100%;
+
+    }
+
+    h2{
+        font-family: FirstFont;
+        margin-top: 3%;
+        margin-left: 10px;
+        color: $white_text;
+        float: left;
+        
+    }
+
+    .Dropdow-arrow img{
+        float: right;
+        background-color: $bg_primary;
+        margin-top: 1.5%;
+
+
+    }
+}
+
+.fav-ico{
+    
+    background-color: purple;
+    height: 50px;
+    width: 50px;
+}
