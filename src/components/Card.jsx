@@ -1,6 +1,8 @@
 import React, {useState, useEffect} from 'react';
 import {Container, Col, Row} from 'react-bootstrap'
 import axios from 'axios';
+import Heart from '../img/Ico/medium-heart.svg'
+
 
 
 
@@ -36,7 +38,9 @@ function Card(){
         
         <Col>
         
-        <img src ={item.images.sm} alt="ImgCard"/>       
+        <img src ={item.images.sm} alt="ImgCard"/>
+        
+        <button className="btn-like"> <img src ={Heart} alt="LikedCard"/> </button>       
         </Col>
         <div>
         <h1>{item.name}</h1>
@@ -44,7 +48,7 @@ function Card(){
         <p>{item.appearance.race}</p>
         <div className="Fist-ico">
         <span className="ico-svg"></span><p>{item.powerstats.combat}/100</p>
-        <button className="btn-like">Buton</button>
+        
         
         </div>
         </div>
