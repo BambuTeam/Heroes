@@ -40,7 +40,7 @@ function Card(){
         
         <img src ={item.images.sm} alt="ImgCard"/>
         
-        <button className="btn-like"> <img src ={Heart} alt="LikedCard"/> </button>       
+        <button className="btn-like"><span className="heart-like"><img src ={Heart} alt="LikedCard"/></span>  </button>       
         </Col>
         <div>
         <h1>{item.name}</h1>
