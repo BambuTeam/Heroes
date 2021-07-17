@@ -23,13 +23,16 @@ function Card(){
         console.log(superheroes)
     },[])
 
+
+   
     return(
     <Container >
-    <Row>
-    {
+    <Row>{  
         superheroes.map((item,i)=>(
-        <Col lg="3"  className="Card_Container" >  
-        <div className="Contai-col bg-blur" style={{ backgroundImage: `url(${item.images.sm})` }} >
+        <Col lg="3"  >
+        <div className="Card_Container bg-blur" >
+        <div className="Contai-col " >
+           
         
         <Col>
         
@@ -41,10 +44,12 @@ function Card(){
         <p>{item.appearance.race}</p>
         <div className="Fist-ico">
         <span className="ico-svg"></span><p>{item.powerstats.combat}/100</p>
-        {/* <img src ={Fist} alt="LikedCard"/ > */}
+        <button className="btn-like">Buton</button>
+        
         </div>
         </div>
-        </div> 
+        </div>
+        </div>
         
     </Col>
         ))
