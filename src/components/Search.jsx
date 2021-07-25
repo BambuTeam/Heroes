@@ -1,8 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 import {Container, Row, Col} from 'react-bootstrap'
 
 
-var Search=()=>{
+var Search=props=>{
+
+    
+    
 
     return(
         <Container className="Container-Search">
@@ -13,7 +16,7 @@ var Search=()=>{
     <Col lg="4">
         <div className="glass">
         
-       <i className="Seach-ico"></i> <label for="gsearch"><input type="text" placeholder=" Search..." /></label>
+       <i className="Seach-ico"></i> <label for="gsearch"><input name="Search" type="text" placeholder=" Search..." /></label>
         </div>
     </Col>
   </Row>

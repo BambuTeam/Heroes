@@ -6,13 +6,13 @@ import Heart from '../img/Ico/medium-heart.svg'
 
 
 
-
-
-
 function Card(){
 
-
     const [superheroes, setSuperheroes]=useState([])
+
+    const [Search, setSearch]=useState('')
+   
+
 
     useEffect(()=>{
 
@@ -25,10 +25,23 @@ function Card(){
         console.log(superheroes)
     },[])
 
+  
 
    
     return(
     <Container >
+    <Row>
+    <Col lg="8" >   
+    <h2 className="titleSuper">All superheroes</h2>
+    </Col>
+    <Col lg="4">
+        <div className="glass">
+        
+       <i className="Seach-ico"></i> <label for="gsearch"><input name="Search" type="text" placeholder=" Search..." /></label>
+        </div>
+    </Col>
+    </Row>
+
     <Row>{  
         superheroes.map((item,i)=>(
         <Col lg="3"  >
