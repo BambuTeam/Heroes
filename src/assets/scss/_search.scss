@@ -20,20 +20,22 @@
 
 }
 
-.glass{
+.glass input{
+    
+    color: $white_text;
     padding: 10px;
     align-items: center; 
     border: solid 1px $border_color_button;
     border-radius: 15px;
     background-color: $bg_primary-s;
     height: 35px;
+    width: 350px;
 
-    label{
-        color: $white_text;
-        float: left;
-        margin-left: 10px;
-        text-align: center;
-        margin-top: -5px;
 
-    }
+}
+
+.Seach-ico {
+    padding-top: 35px;
+    content: url(../../img/Ico/search.svg) !important;
+
 }

@@ -7,7 +7,11 @@ import Arrow from '../img/Ico/arrow-up.svg'
 
 
 
-const LikedCard=()=>{
+function LikedCard(){
+
+    var [isOpen, setIsOpen] = useState(false);
+
+
     return(
         <Container className="Container-like">
         <Row>
@@ -16,7 +20,9 @@ const LikedCard=()=>{
     <h2>Liked</h2>
     </Col>
     <Col className="Dropdow-arrow">
-    <img src ={Arrow} alt="LikedCard"/>
+    <button onClick={() => setIsOpen(!isOpen)}>
+    <img src ={Arrow} alt="LikedCard"/></button>
+    {isOpen && <div className="Container-like"> ESTO ESTABA OCULTO</div>}
     </Col>
   </Row>
       </Container>

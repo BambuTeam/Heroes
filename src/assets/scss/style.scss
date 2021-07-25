@@ -17,42 +17,75 @@ height: 100%;
     height: 73PX;
 }
 
-.Container-like{
 
-    
-    
+
+/* .Container-like{
     align-items: center; 
     margin-top: 123px;
     border: solid 1px $bg_bar_border;
     border-radius: 16px;
-    background-color: $bg_barlike;
+    
     width: 100%;
     height: 74px;
 
+    h1{
+        color: #fefefe;
+    }
+
+    button:active{
+        align-items: center; 
+    border: solid 1px $bg_bar_border;
+    border-radius: 16px;
+    background-color: $bg_barlike;
+    width: 100%;
+    height: 174px;
+    }
+
+} */
+
+
+.Suspense-loading{
+    margin-top: 50px;
+    color: #fefefe;
+
+}
+
+
+.container-toggle{
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px 10px;
+    border-radius: 16px;
+    border: solid 1px $bg_bar_border;
+    background-color: $bg_barlike;
+
+
     img{
-        float: left;
-        margin-top: 2.5%;
-        background-color: $bg_secundary;
-        padding: 15px;
-        border-radius: 100%;
+        width: 50px;
+        margin-top: 150px;
 
     }
 
-    h2{
-        font-family: FirstFont;
-        margin-top: 3%;
-        margin-left: 10px;
+
+    .empty h1{
+        font-size: 20px;
+        font-family: Font-Search;
+        margin-top: 50px;
         color: $white_text;
-        float: left;
+    }
+
+
+    button{
+        border-radius: 100%;
+        margin-left: 90%;
+        background: rgba(255, 255, 255, 0.1);
+        width: 60px;
+        height: 60px;
         
     }
 
-    .Dropdow-arrow img{
-        float: right;
-        background-color: $white_10;
-        margin-top: 1.5%;
-
-
+    i{
+        content: url(../../img/Ico/arrow-up.svg);
     }
+    
 }
-

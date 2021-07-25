@@ -1,10 +1,9 @@
 import React from 'react';
 import {Container, Row, Col} from 'react-bootstrap'
-import Glass from '../img/Ico/search.svg'
 
 
+var Search=()=>{
 
-const Search=()=>{
     return(
         <Container className="Container-Search">
         <Row>
@@ -13,8 +12,8 @@ const Search=()=>{
     </Col>
     <Col lg="4">
         <div className="glass">
-        <img src ={Glass} alt="LikedCard"/>
-        <label for="gsearch"><h5>Search</h5></label>
+        
+       <i className="Seach-ico"></i> <label for="gsearch"><input type="text" placeholder=" Search..." /></label>
         </div>
     </Col>
   </Row>
